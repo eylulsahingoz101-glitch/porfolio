@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eylül Şahingöz – AI Language Specialist Portfolio</title>
+<style>
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+    background-color: #2d1b69;
+    color: #f0eef7;
+    line-height: 1.6;
+}
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
+}
+h1, h2, h3 { 
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+}
+h1 { font-size: 3rem; margin-bottom: 0.5rem; }
+h2 { 
+    font-size: 1.8rem; 
+    border-left: 4px solid #a68aff; 
+    padding-left: 1rem; 
+    margin-top: 2rem;
+}
+header { padding: 80px 0 40px 0; }
+.tagline { 
+    color: #c5b9ff; 
+    font-size: 1.25rem; 
+    margin-top: 10px; 
+    line-height: 1.4;
+    max-width: 80%;
+}
+section { margin: 60px 0; }
+.project {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid #3d2e70;
+    padding: 24px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    transition: all 0.2s ease;
+}
+.project:hover { 
+    border-color: #a68aff; 
+    background: rgba(166, 138, 255, 0.05);
+}
+.project h3 { margin-top: 0; font-size: 1.4rem; }
+.project a { 
+    color: #a68aff; 
+    text-decoration: none; 
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 12px;
+}
+.project a:hover { color: #c5b9ff; text-decoration: underline; }
+.skills span {
+    display: inline-block;
+    background: #1e1738;
+    padding: 6px 14px;
+    margin: 6px;
+    border-radius: 40px;
+    font-size: 0.85rem;
+    font-weight: 400;
+    border: 1px solid #3d2e70;
+}
+footer { 
+    margin: 80px 0 40px; 
+    text-align: center; 
+    color: #9aa4b2; 
+    font-size: 0.85rem;
+    border-top: 1px solid #3d2e70;
+    padding-top: 30px;
+}
+button {
+    background: #a68aff;
+    border: none;
+    padding: 10px 20px;
+    color: #1e1738;
+    font-weight: 600;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: 0.2s;
+}
+button:hover { background: #c5b9ff; transform: translateY(-1px); }
+.contact-note {
+    background: #1e1738;
+    padding: 20px;
+    border-radius: 16px;
+    margin-top: 20px;
+    border-left: 4px solid #a68aff;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #3d2e70;
+    margin: 40px 0;
+}
+@media (max-width: 700px) {
+    .container { width: 90%; }
+    h1 { font-size: 2.2rem; }
+    .tagline { max-width: 100%; font-size: 1rem; }
+    .project { padding: 18px; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>Eylül Şahingöz</h1>
+<p class="tagline">
+Bilingual linguist helping AI speak human—through evaluation, annotation, and cultural precision.
+</p>
+</header>
+
+<section>
+<h2>About</h2>
+<p>
+I'm a linguist with a BA in English Language and Literature and a background in computational linguistics. I specialize in evaluating AI-generated language, building annotation frameworks, and ensuring content is accurate, natural, and culturally aligned. My work bridges human communication and machine output—helping AI sound less like a model and more like a person.
+</p>
+<p>
+With over 5 years of experience in linguistics, editing, and language instruction, I bring precision and nuance to every project. I'm currently focused on LLM evaluation, localization QA, and prompt engineering for Turkish and English language systems.
+</p>
+</section>
+
+<section>
+<h2>Projects</h2>
+
+<div class="project">
+<h3>LLM Comparison: Turkish Edition</h3>
+<p><strong>What I did:</strong> Benchmarked ChatGPT, Gemini, Claude, and DeepSeek on Turkish language tasks. Evaluated fluency, tone, register accuracy, and cultural appropriateness using a 5-point rubric.</p>
+<p><strong>Tools:</strong> ChatGPT, Gemini, Claude, DeepSeek, Google Sheets, Notion</p>
+<p><strong>Result:</strong> Built a comparative evaluation framework now used as a reference for Turkish-language LLM assessment. Demonstrated how different models handle linguistic nuance and conversational flow.</p>
+<a href="https://www.notion.so/LLM-Comparison-Turkish-Edition-Eyl-l-ahing-z-30ccc2de1b31808ebf27d47eb299dbd0" target="_blank">View Project →</a>
+</div>
+
+<div class="project">
+<h3>EN–TR Translation Error Analysis</h3>
+<p><strong>What I did:</strong> Analyzed 50+ AI-generated translations from DeepL and Google Translate, identifying and categorizing errors in semantics, syntax, word order, pronoun drop, and cultural adaptation.</p>
+<p><strong>Tools:</strong> DeepL, Google Translate, Excel, Notion</p>
+<p><strong>Result:</strong> Created a structured error taxonomy used to evaluate and improve AI translation quality. Showcases linguistic precision and systematic QA skills.</p>
+<a href="https://www.notion.so/EN-TR-Translation-Error-Analysis-A-Case-Study-on-AI-Outputs-30ccc2de1b31806f9e7ce6424d56b467" target="_blank">View Project →</a>
+</div>
+
+<div class="project">
+<h3>Sentiment Annotation Sample</h3>
+<p><strong>What I did:</strong> Annotated Turkish-language content for sentiment (positive, negative, neutral) using structured linguistic guidelines, ensuring high consistency and accuracy.</p>
+<p><strong>Tools:</strong> Google Sheets, annotation guidelines, linguistic frameworks</p>
+<p><strong>Result:</strong> Demonstrated ability to apply structured annotation guidelines consistently—a core skill for AI training and data labeling projects.</p>
+</div>
+
+<div class="project">
+<h3>Applied LLM Evaluation Framework</h3>
+<p><strong>What I did:</strong> Developed a rubric-based evaluation system for assessing LLM outputs across instruction adherence, tone accuracy, cultural alignment, and semantic fidelity. Applied it across multiple models and documented findings.</p>
+<p><strong>Tools:</strong> Notion, Google Docs, custom rubrics</p>
+<p><strong>Result:</strong> Created a repeatable QA framework adaptable for enterprise AI evaluation workflows.</p>
+</div>
+
+</section>
+
+<section>
+<h2>Skills</h2>
+<div class="skills">
+<span>AI Evaluation</span>
+<span>LLM Benchmarking</span>
+<span>Linguistic Annotation</span>
+<span>Prompt Engineering</span>
+<span>Translation QA</span>
+<span>Error Analysis</span>
+<span>Localization QA</span>
+<span>ChatGPT</span>
+<span>Claude</span>
+<span>Gemini</span>
+<span>DeepSeek</span>
+<span>DeepL</span>
+<span>Google Sheets</span>
+<span>Notion</span>
+<span>Python (Basics)</span>
+</div>
+</section>
+
+<section>
+<h2>Languages & Certifications</h2>
+<div class="skills">
+<span>Turkish: Native</span>
+<span>English: C2 (Native-level)</span>
+<span>Spanish: Beginner</span>
+<span>IBM AI Foundations</span>
+<span>Google AI Essentials</span>
+</div>
+</section>
+
+<section>
+<h2>Contact</h2>
+<div class="contact-note">
+<p>👋 I'm currently available for AI training, linguistic evaluation, and localization QA projects. If you're working on language, content quality, or multilingual AI systems, I'd love to connect.</p>
+<button onclick="copyEmail()">Copy Email</button>
+<p id="email" style="display: none;">eylulsahingoz@gmail.com</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Eylül Şahingöz – AI Language Specialist</p>
+</footer>
+</div>
+
+<script>
+function copyEmail() {
+    const email = document.getElementById("email").innerText;
+    navigator.clipboard.writeText(email).then(() => {
+        alert("Email copied to clipboard!");
+    }).catch(() => {
+        alert("Could not copy email. Please manually copy: " + email);
+    });
+}
+</script>
+</body>
+</html>
